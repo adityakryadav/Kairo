@@ -114,7 +114,7 @@ function Popup() {
         Kairo
       </h1>
       <div class="header-actions">
-        <button class="icon-btn" onClick=${openOptions} title="Settings" id="kairo-settings-btn">Settings</button>
+        <button class="icon-btn" onClick=${openOptions} title="Settings" id="kairo-settings-btn"><i class="fa-solid fa-gear" style="color: rgb(138, 152, 177);"></i></button>
       </div>
     </div>
 
@@ -275,7 +275,7 @@ function CapsuleCard({ capsule, onCopy, onInject, onDelete }) {
           Inject
         </button>
         <button class="card-btn delete" onClick=${onDelete} title="Delete capsule">
-          Delete
+          <i class="fa-solid fa-trash" style="color: rgb(147, 162, 187);"></i>
         </button>
       </div>
     </div>
